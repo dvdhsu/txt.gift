@@ -10,6 +10,7 @@ gem 'jbuilder', '2.1.3'
 gem 'bcrypt', '3.1.7'
 gem 'pg'
 gem 'twilio-ruby'
+gem 'sidekiq'
 
 group :doc do
   gem 'sdoc', require: false

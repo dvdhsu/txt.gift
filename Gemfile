@@ -8,6 +8,7 @@ gem 'jquery-rails', '3.1.2'
 gem 'turbolinks', '2.3.0'
 gem 'jbuilder', '2.1.3'
 gem 'bcrypt', '3.1.7'
+gem 'pg'
 
 group :doc do
   gem 'sdoc', require: false
@@ -15,7 +16,6 @@ end
 
 # development gems
 group :development, :test do
-  gem 'sqlite3', '1.3.9'    # dev & test database
   gem 'figaro', '0.7.0'     # env variables
 end
 
@@ -30,7 +30,6 @@ gem 'font-awesome-sass', '4.2.0'
 
 # production gems for heroku
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 
